@@ -55,3 +55,7 @@ Prompt for input if nothing found."
     (unless id
       (setq id (read-from-minibuffer "Issue: ")))
     (browse-url (format open-issue-issue-url-format id))))
+
+(provide 'open-issue)
+
+;;; open-issue.el ends here
