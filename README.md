@@ -6,9 +6,9 @@ You can use it to open issue in JIRA, Redmine, etc from issue id in your commit 
 ```
 (require 'open-issue)
 (global-set-key "\M-o" 'open-issue)
-;; setting is for JIRA (use default value of open-issue-issue-regexp)
+;; for JIRA (use default value of open-issue-issue-regexp)
 ;(setq open-issue-issue-url-format "https://jira.atlassian.com/browse/%s")
-;; following setting is for Redmine
+;; for Redmine
 ;(setq open-issue-issue-regexp "#\\([0-9]+\\)")
 ;(setq open-issue-issue-url-format "http://www.redmine.org/issues/%s")
 ```
